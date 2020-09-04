@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: sans-serif;
+}
+
+#canvas {
+   margin-top: 200px;
+}
+
+#recommencer {
+    color: #fefefe;
+    position: fixed;
+    top: 5%;
+    left: 38%;
+    transform: translate (-50%, -50%);
+    display: none;
+}
+
+#score {
+    color : white;
+    margin-top: 100px;
+    font-size: 30px;
+}
